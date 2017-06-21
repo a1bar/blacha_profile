@@ -1,43 +1,49 @@
 ﻿<div id="container" class="menu-container">
-<div id="header"><a href="http://www.blacha-profile.pl/index.html" title="Przejdź na stronę główną Wyroby Hutniczne Małopolska Blacha-Profile.pl"><img class="pic" src="images/top.jpg" alt="Wyroby Hutniczne Blacha-Profile.pl najniższe ceny w małopolsce!" /></a></div>
-	<div id="menu">
-		<table cellpadding="0" cellspacing="0">
-							<tr>
+    <div id="header"><a href="http://www.blacha-profile.pl/index.html"
+                        title="Przejdź na stronę główną Wyroby Hutniczne Małopolska Blacha-Profile.pl"><img class="pic"
+                                                                                                            src="images/top.jpg"
+                                                                                                            alt="Wyroby Hutniczne Blacha-Profile.pl najniższe ceny w małopolsce!"/></a>
+    </div>
+    <div id="menu">
+        <table cellpadding="0" cellspacing="0">
+            <tr>
 
-								<td align="center"><a href="../index.html">start</a> <br />
-								</td>
-							
-				
-								<td align="center"><a href="../kontakt.html">kontakt</a><br />
-								</td>
-						
-								<td align="center"><a href="../wyroby_hutnicze.html">wyroby hutnicze</a><br />
-									</td>
-							
-								<td align="center"><a href="../materialy_budowlane.html">materiały budowlane</a><br />
-								</td>
-							
-								<td align="center"><a href="../dojazd.html">dojazd</a><br />
-									</td>
-									
-							</tr>
-						</table>
+                <td align="center"><a href="../index.html">start</a> <br/>
+                </td>
 
-	</div>
-<div id="content">
 
-<div id="contact">
-	<script>
-	document.getElementById("today").innerHTML = formatAMPM();
+                <td align="center"><a href="/kontakt.html">kontakt</a><br/>
+                </td>
 
-	function formatAMPM() {
-	var d = new Date(),
-	minutes = d.getMinutes().toString().length == 1 ? '0'+d.getMinutes() : d.getMinutes(),
-	hours = d.getHours().toString().length == 1 ? '0'+d.getHours() : d.getHours(),
-	months = ['Styczeń.','Luty.','Marzec.','Kwiecień','Maj','','Czerwiec','Lipiec','Sierpień','Wrzesień','Październik','Listopad','Grudzień'],
-	days = ['Poniedziałek','Wtorek','Środa','Czwartek','Piątek','Sobota','Niedziela'];
-	return "Dzisiaj jest: "+ days[d.getDay()]+', '+d.getDate()+' '+months[d.getMonth()]+' '+d.getFullYear()+' | '+hours+':'+minutes;
-	}
-	</script>
-<span id="today">Data</span>
+                <td align="center"><a href="../wyroby_hutnicze.html">wyroby hutnicze</a><br/>
+                </td>
+
+                <td align="center"><a href="../materialy_budowlane.html">materiały budowlane</a><br/>
+                </td>
+
+                <td align="center"><a href="../dojazd.html">dojazd</a><br/>
+                </td>
+
+            </tr>
+        </table>
+
+    </div>
+    <div id="content">
+
+        <div id="contact">
+            <script>
+                document.getElementById("today").innerHTML = formatAMPM();
+
+                function formatAMPM() {
+                    var d = new Date(),
+                        minutes = d.getMinutes().toString().length == 1 ? '0' + d.getMinutes() : d.getMinutes(),
+                        hours = d.getHours().toString().length == 1 ? '0' + d.getHours() : d.getHours(),
+                        months = ['Styczeń.', 'Luty.', 'Marzec.', 'Kwiecień', 'Maj', '', 'Czerwiec', 'Lipiec', 'Sierpień', 'Wrzesień', 'Październik', 'Listopad', 'Grudzień'],
+                        days = ['Poniedziałek', 'Wtorek', 'Środa', 'Czwartek', 'Piątek', 'Sobota', 'Niedziela'];
+                    return "Dzisiaj jest: " + days[d.getDay()] + ', ' + d.getDate() + ' ' + months[d.getMonth()] + ' ' + d.getFullYear() + ' | ' + hours + ':' + minutes;
+                }
+            </script>
+            <span id="today">Data</span>
+        </div>
+    </div>
 </div>
