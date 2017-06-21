@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl" lang="pl">
+<head>
+  <link href="style.css" type="text/css" rel="stylesheet" />
+  <title>Wyroby Hutniczne małopolska Blacha-Profile.pl - kontakt</title>
+  <meta name="Robots" content="index,follow"/>
+  <meta name="descriptions" content= "Wyroby hutnicze - magazyn Kasinka Mała"/>
+<meta name="keywords" content= "wyroby hutnicze, wyroby hutnicze małopolska, blacha, profile stalowe, blacha małopolska, profile małopolska"/>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <script type='text/javascript' src="javascript/contactform.js"></script>
+</head>
+<body>
+<?php
+include_once 'php/menu.php';
+?>
+
+
+		
+<div id="left_column">
+<div class="text">
+<h1>Dane kontaktowe</h1>
+
+	<p>Firma Handlowo-Usługowa Agata Stożek, Kasinka Mała 665, 34-734 Kasinka Mała <br />
+	NIP:7370007630<br />
+	tel. magazyn (0-18) 33 38 107<br />
+	tel. 33 13 126<br />
+	e-mail: magazyn@blacha-profile.pl<br />
+	Godziny otwarcia:<br />
+	Pon.-Pią. 7-00 : 17-00<br />
+	Sob. 7-00 : 15-00<br />
+	</p>
+<br />
+
+	</div>
+</div>
+  <div id="right_column">
+  <p>Aby się z nami skontaktować możesz również skorzystać z poniższego formularza kontaktowego.</p>
+  <br />
+<div id="contactarea">
+      <form name="contactform" id="contactform" action="">
+        <span id="inputlabel1">Imię i nazwisko:</span><input style="float: right;" type="text" name="name" id="inputbox1" /><br />
+        <span id="inputlabel2">e-Mail:</span><input type="text" name="email" id="inputbox2" /><br />
+        <span id="inputlabel3">Temat:</span><input type="text" name="subject" id="inputbox3" /><br />
+        <br />
+        <span id="inputlabel4">Wiadomość:</span><br />
+        <textarea name="msg" cols="20" rows="14" id="textarea"></textarea><br />
+        <br />
+        <input type="button" value="Wyślij" name="send" onclick="sendemail();" id="submitbutton" />
+        <br />
+
+      </form>
+    </div>	
+	<br />
+</div>
+
+<?php
+include_once 'php/footer.php';
+?> 	

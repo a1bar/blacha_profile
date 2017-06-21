@@ -1,0 +1,298 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: #1A1A1A;
+}
+
+h1	{
+  color:#960604;
+  font: 20px 'Helvetica-Narrow', Arial, Sans-serif;
+  text-decoration: underline;
+  margin-bottom: 10px;	
+}
+
+h3	{
+	color:#6F3E3E;
+  font: 13px 'Helvetica-Narrow', Arial, Sans-serif;
+  font-weight: bold;
+  margin-top:15px;
+}
+
+h4	{
+  color: #960604;
+  font: 14px 'Helvetica-Narrow', Arial, Sans-serif;
+  font-weight: bold;
+  margin:0 auto;
+  text-align:center;
+}
+
+p	{
+	font:14px "Trebuchet MS", Verdana, Arial,Tahoma,Sans-serif;
+	margin:5px 0px 5px 0px;
+	color: #F5F5F5;
+	line-height: 140%;
+	text-align:justify;
+}
+
+#container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#header {
+  height: 249px;
+  width: 823px;
+  position: relative;
+  background: #ffffff;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+#menu {
+	height: 34px;
+	position: relative;
+	background: #cc9933 url('images/belka.png') repeat-x;
+	width: 100%;
+	color: #F5F5F5;
+  font: 18px "Trebuchet MS", Verdana,'Helvetica-Narrow', Arial, Sans-serif;
+  font-weight: bolder;
+  line-height: 10px;
+}
+
+#menu a {
+	text-decoration: none;
+	color: #F5F5F5;
+}
+
+
+
+#menu a:visited {
+	text-decoration: none;
+	color: #F5F5F5;
+}
+
+#menu a:hover {
+	text-decoration: none;
+	color: #B02828;
+}
+
+#menu table {
+	width: 623px;
+	height: 34px;
+	margin: 0 auto;
+	padding-bottom: 3px;
+	border-bottom: none;
+}
+
+
+#menu td {
+	margin-bottom: 15px;
+}
+
+
+#content {
+  background: #ffffff url('images/content.gif') repeat-y;
+  height: 100%;
+  width: 823px;
+  margin: 0 auto;
+}
+
+#contact span {
+color:black;
+margin-top:5px;
+margin-left:60%;
+}
+
+#column {
+	width: 800px;
+	height: auto;
+	margin:0 auto;
+	padding:20px 0px 10px 0px;
+	text-align:center;
+}
+
+#left_column {
+
+	float: left;
+	width: 320px;
+	height: auto;
+	padding: 5px;
+	margin: 20px 0px 10px 10px;
+}
+
+#left_column ul{
+	font:14px "Trebuchet MS", Verdana, Arial,Tahoma,Sans-serif;
+	margin:5px 0px 5px 15px;
+	color: #F5F5F5;
+	line-height: 140%;
+	text-align:justify;
+}
+
+
+#right_column {
+
+	float: right;
+	width: 456px;
+	height: auto;
+	position: relative;
+	padding: 5px;
+	margin:20px 10px 10px 0px;
+}
+
+.clear {
+  clear: both;
+}
+
+.text {
+	background-color: #E6650B;
+	padding:5px;
+}
+
+.pic {
+	display: block;
+	border: none;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.gal1 {
+	margin: 0 auto;
+	border: 3px white solid;
+	margin:5px 5px 5px 5px;
+}
+
+.gal {
+	border: 3px white solid;
+	margin:5px 5px 5px 5px;
+}
+
+.gal2 {
+	margin: 0 auto;
+	border: 3px white solid;
+	margin:10px 10px 5px 10px;
+}
+
+.center{
+ text-align: center;
+ margin: 0 auto 0 auto; 
+}
+
+.mail{
+	text-decoration: none;
+	color: #5f0000;
+  font: 14px "Trebuchet MS", Verdana,'Helvetica-Narrow', Arial, Sans-serif;
+  font-weight: bold;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+
+#footer {
+  width: 823px;
+  margin: 0 auto;
+  height: 101px;
+  background: #ffffff url('images/footer.png') no-repeat;
+  text-align: center;
+  color: #F5F5F5;
+  font: 12px 'Helvetica-Narrow', Arial, Sans-serif;
+  font-weight:bold;
+}
+
+#footer table{
+	font-size: 10px;
+}
+
+#copy {
+	float:left;
+	text-align: center;
+	margin-left:33%;
+	color:white;
+	font: 12px 'Helvetica-Narrow', Arial, Sans-serif;
+	margin-top:20px;
+}
+
+#copy a{
+	color:white;
+	text-decoration:none;
+	font-weight: bold;
+}
+#copy a:visited{
+	color:white;
+	text-decoration:none;
+	font-weight: bold;
+}
+
+
+#contact{
+  width: 823px;
+  margin: 0 auto;
+  height: 91px;
+  background: #ffffff url('images/contact.png') no-repeat;
+  text-align: center;
+  color: #F5F5F5;
+  font: 12px 'Helvetica-Narrow', Arial, Sans-serif;
+  font-weight:bold;
+}
+
+/*kontakt*/
+#contactarea {
+ width:330px;
+ margin:0px auto;
+ text-align:left;
+ padding:15px;
+ border:2px solid #AE2A2D;
+ background-color:#E6650B;
+ font-family: Verdana, Arial;
+ font-size: 12px;
+  color: #F5F5F5;
+}
+
+#inputbox1, #inputbox2, #inputbox3 {
+ border: 1px solid #000;
+ width: 98%;
+ padding: 2px;
+ font-weight: bold;
+ font-family: Verdana, Arial;
+ font-size: 12px;
+ color: black;
+ float: right;
+}
+
+#inputlabel1, #inputlabel2, #inputlabel3, #inputlabel4 {
+ font-weight: bold;
+ font-family: Verdana, Arial;
+ font-size: 12px;
+}
+
+#textarea {
+ border: 1px solid #000;
+ padding: 2px;
+ font-family: Verdana, Arial;
+ font-size: 10pt;
+ width: 330px;
+ color: black;
+}
+
+#submitbutton {
+ padding: 3px;
+ border: 1px solid #000;
+ background-color: #AE2A2D;
+ color: #F5F5F5;
+}
+
+
+#bottom{
+  width: 823px;
+  margin: 0 auto;
+  height: 66px;
+  background: #ffffff url('images/bottom.png') no-repeat;
+}
+
+
+
+
+
