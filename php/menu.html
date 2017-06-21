@@ -27,21 +27,18 @@
     </table>
 
 </div>
-<div id="content">
+<div id="contact">
+    <script>
+        document.getElementById("today").innerHTML = formatAMPM();
 
-    <div id="contact">
-        <script>
-            document.getElementById("today").innerHTML = formatAMPM();
-
-            function formatAMPM() {
-                var d = new Date(),
-                    minutes = d.getMinutes().toString().length == 1 ? '0' + d.getMinutes() : d.getMinutes(),
-                    hours = d.getHours().toString().length == 1 ? '0' + d.getHours() : d.getHours(),
-                    months = ['Styczeń.', 'Luty.', 'Marzec.', 'Kwiecień', 'Maj', '', 'Czerwiec', 'Lipiec', 'Sierpień', 'Wrzesień', 'Październik', 'Listopad', 'Grudzień'],
-                    days = ['Poniedziałek', 'Wtorek', 'Środa', 'Czwartek', 'Piątek', 'Sobota', 'Niedziela'];
-                return "Dzisiaj jest: " + days[d.getDay()] + ', ' + d.getDate() + ' ' + months[d.getMonth()] + ' ' + d.getFullYear() + ' | ' + hours + ':' + minutes;
-            }
-        </script>
-        <span id="today">Data</span>
-    </div>
+        function formatAMPM() {
+            var d = new Date(),
+                minutes = d.getMinutes().toString().length == 1 ? '0' + d.getMinutes() : d.getMinutes(),
+                hours = d.getHours().toString().length == 1 ? '0' + d.getHours() : d.getHours(),
+                months = ['Styczeń.', 'Luty.', 'Marzec.', 'Kwiecień', 'Maj', '', 'Czerwiec', 'Lipiec', 'Sierpień', 'Wrzesień', 'Październik', 'Listopad', 'Grudzień'],
+                days = ['Poniedziałek', 'Wtorek', 'Środa', 'Czwartek', 'Piątek', 'Sobota', 'Niedziela'];
+            return "Dzisiaj jest: " + days[d.getDay()] + ', ' + d.getDate() + ' ' + months[d.getMonth()] + ' ' + d.getFullYear() + ' | ' + hours + ':' + minutes;
+        }
+    </script>
+    <span id="today">Data</span>
 </div>
