@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl" lang="pl">
 
 <head>
@@ -11,49 +11,73 @@
           content="wyroby hutnicze, wyroby hutnicze małopolska, blacha, profile stalowe, blacha małopolska, profile małopolska"/>
     <link href="style.css" type="text/css" rel="stylesheet"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="text/javascript">(function(a){a.fn.inc=function(b,c,d,e){return this.length&&b?this.each(function(){e=a(this);a.ajax({url:b,success:function(f,g,h){e.html(a.isFunction(c)?c(f,b):f);a.isFunction(d)&&d(b,g,h)}})}):this};a(function(){a('[class*="inc:"]').each(function(){var b=/inc:(\S+)/.exec(this.className||"");b&&a(this).inc(unescape(b[1]))})})})(jQuery);</script>
+    <script type="text/javascript">(function (a) {
+        a.fn.inc = function (b, c, d, e) {
+            return this.length && b ? this.each(function () {
+                e = a(this);
+                a.ajax({
+                    url: b, success: function (f, g, h) {
+                        e.html(a.isFunction(c) ? c(f, b) : f);
+                        a.isFunction(d) && d(b, g, h)
+                    }
+                })
+            }) : this
+        };
+        a(function () {
+            a('[class*="inc:"]').each(function () {
+                var b = /inc:(\S+)/.exec(this.className || "");
+                b && a(this).inc(unescape(b[1]))
+            })
+        })
+    })(jQuery);</script>
 </head>
 
 <body>
-<div  class="inc:php\menu.html">Top menu</div>
+<div id="container" class="menu-container">
+    <div class="inc:php\menu.html">Top menu</div>
 
-<div id="left_column">
-<div class="text">
-<h1>Witamy na stronie Blacha-Profile.pl</h1>
+    <div id="left_column">
+        <div class="text">
+            <h1>Witamy na stronie Blacha-Profile.pl</h1>
 
-	<p>Firma Handlowo-Usługowa Agata Stożek powstała w Kasince Małej w 1997 roku. Od tego czasu na terenie
-województwa małopolskiego świadczy usługi  w zakresie handlu wyrobami hutniczymi.</p>
-<br />
-<p>Posiadamy szeroki wachlarz:</p>
-<ul>
-<li>profili stalowych</li>
-<li>blach czarnych</li>
-<li>blacha ryflowana</li>
-<li>dwuteowników </li>
-<li>płaskowników</li>
-<li>kątowników</li>
-<li>rurek czarnych </li>
-<li>rurek ocynkowanych</li>
-<li>prętów żebrowanych</li>
-<li>prętów gładkich</li>
-<li>profili do bram przesuwnych itp.</li>
-</ul>
+            <p>Firma Handlowo-Usługowa Agata Stożek powstała w Kasince Małej w 1997 roku. Od tego czasu na terenie
+                województwa małopolskiego świadczy usługi w zakresie handlu wyrobami hutniczymi.</p>
+            <br/>
+            <p>Posiadamy szeroki wachlarz:</p>
+            <ul>
+                <li>profili stalowych</li>
+                <li>blach czarnych</li>
+                <li>blacha ryflowana</li>
+                <li>dwuteowników</li>
+                <li>płaskowników</li>
+                <li>kątowników</li>
+                <li>rurek czarnych</li>
+                <li>rurek ocynkowanych</li>
+                <li>prętów żebrowanych</li>
+                <li>prętów gładkich</li>
+                <li>profili do bram przesuwnych itp.</li>
+            </ul>
+        </div>
+    </div>
+    <div id="right_column">
+        <p>Mamy możliwość sprowadzenia dowolnych ilości i wymiarów wyrobów hutnicznych (kształtowników stalowych). Na
+            miejscu posiadamy gilotynę mechaniczną
+            przeznaczoną do cięcia blachy i gilotynę do cięci prętów i płaskowników. Tniemy blachę w każdej ilości i na
+            dowolny wymiar.
+            Dysponujemy odpowiednim zapleczem logistycznym niezbędnym do transportu towarów. Istnieje możliwość
+            transportu na terenie województwa małopolskiego
+            i jego okolic.</p>
+        <img src="foto/mag1.jpg" class="gal1" alt="Magazyn"/>
+        <img src="foto/mag2.jpg" class="gal2" alt="Magazyn"/>
+        <img src="foto/mag3.jpg" class="gal2" alt="Magazyn"/>
+        <br/>
+        <p>Ponadto oferujemy klientom szerogą gamę materiałów budowlanych. Szczegóły oferty znajdują się w dziale
+            materiały budowlane.</p>
+        <br/>
+        <h4>Serdecznie dziękujemy za odwiedzenie naszej strony www</h4>
+        <h4>oraz zaprszamy do współpracy.</h4>
+    </div>
+    <span class="inc:php\footer.html">footer</span>
 </div>
-	</div>
-  <div id="right_column">
-  <p>Mamy możliwość sprowadzenia dowolnych ilości i wymiarów wyrobów hutnicznych (kształtowników stalowych). Na miejscu posiadamy gilotynę mechaniczną
-przeznaczoną do cięcia blachy i gilotynę do cięci prętów i płaskowników. Tniemy blachę w każdej ilości i na dowolny wymiar.
-Dysponujemy odpowiednim zapleczem logistycznym niezbędnym do transportu towarów.  Istnieje możliwość transportu na terenie województwa małopolskiego
-i jego okolic.</p>
-<img src="foto/mag1.jpg" class="gal1" alt="Magazyn" />
-<img src="foto/mag2.jpg" class="gal2" alt="Magazyn" />
-<img src="foto/mag3.jpg" class="gal2" alt="Magazyn" />
-<br />
-<p>Ponadto oferujemy klientom szerogą gamę materiałów budowlanych. Szczegóły oferty znajdują się w dziale materiały budowlane.</p>
-<br />
-<h4>Serdecznie dziękujemy za odwiedzenie naszej strony www</h4>
-<h4>oraz zaprszamy do współpracy.</h4>
-</div>
-<span class="inc:php\footer.html">footer</span>
 </body>
 </html>
