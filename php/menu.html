@@ -34,7 +34,7 @@
 	var d = new Date(),
 	minutes = d.getMinutes().toString().length == 1 ? '0'+d.getMinutes() : d.getMinutes(),
 	hours = d.getHours().toString().length == 1 ? '0'+d.getHours() : d.getHours(),
-	months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],
+	months = ['Styczeń.','Luty.','Marzec.','Kwiecień','Maj','','Czerwiec','Lipiec','Sierpień','Wrzesień','Październik','Listopad','Grudzień'],
 	days = ['Poniedziałek','Wtorek','Środa','Czwartek','Piątek','Sobota','Niedziela'];
 	return "Dzisiaj jest: "+ days[d.getDay()]+', '+d.getDate()+' '+months[d.getMonth()]+' '+d.getFullYear()+' | '+hours+':'+minutes;
 	}
